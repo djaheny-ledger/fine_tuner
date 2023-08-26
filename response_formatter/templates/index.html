@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Break Processor</title>
+</head>
+<body>
+    <h2>Enter text</h2>
+    <form action="/process/" method="post">
+        <textarea name="text" rows="10" cols="50"></textarea><br><br>
+        <input type="submit" value="Process">
+    </form>
+    {% if result %}
+    <h2>Processed Text:</h2>
+    <pre id="processedText">{{ result|e }}</pre>
+    <button onclick="copyToClipboard()">Copy</button>
+    {% endif %}
+
+    <script>
+        function copyToClipboard() {
+            const textArea = document.createElement("textarea");
+            textArea.value = document.getElementById("processedText").innerText;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textArea);
+            alert("Text copied to clipboard!");
+        }
+    </script>
+
+</body>
+</html>
