@@ -8,7 +8,7 @@ from collections import defaultdict
 
 # Next, we specify the data path and open the JSONL file
 
-data_path = "<YOUR_JSON_FILE_HERE>"
+data_path = "primed_data.jsonl"
 
 # Load dataset
 with open(data_path) as f:

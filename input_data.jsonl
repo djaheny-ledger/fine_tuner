@@ -1,5 +1,5 @@
-{"messages": [{"role": "system", "content": ""}, {"role": "user", "content": ""}, {"role": "assistant", "content": ""}]}
-{"messages": [{"role": "system", "content": ""}, {"role": "user", "content": ""}, {"role": "assistant", "content": ""}]}
+{"messages": [{"role": "system", "content": ""}, {"role": "user", "content": "what's the difference between a passphrase and a recovery phrase?"}, {"role": "assistant", "content": "hello"}]}
+{"messages": [{"role": "system", "content": ""}, {"role": "user", "content": "I am getting weird NFTs in my polygon account"}, {"role": "assistant", "content": "I'm sorry to hear that you're receiving unexpected NFTs in your Polygon account. Please be aware that this could potentially be a scam known as \"address poisoning\". I strongly recommend you to read this article for more information and guidance: https://support.ledger.com/hc/en-us/articles/8473509294365-Beware-of-address-poisoning-scams. Stay safe!"}]}
 {"messages": [{"role": "system", "content": ""}, {"role": "user", "content": ""}, {"role": "assistant", "content": ""}]}
 {"messages": [{"role": "system", "content": ""}, {"role": "user", "content": ""}, {"role": "assistant", "content": ""}]}
 {"messages": [{"role": "system", "content": ""}, {"role": "user", "content": ""}, {"role": "assistant", "content": ""}]}
