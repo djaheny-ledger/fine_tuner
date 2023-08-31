@@ -139,4 +139,7 @@ n_billing_tokens_in_dataset = sum(min(MAX_TOKENS_PER_EXAMPLE, length) for length
 print(f"Dataset has ~{n_billing_tokens_in_dataset} tokens that will be charged for during training")
 print(f"By default, you'll train for {n_epochs} epochs on this dataset")
 print(f"By default, you'll be charged for ~{n_epochs * n_billing_tokens_in_dataset} tokens")
-print("See pricing page to estimate total costs")
+
+total_tokens = (n_epochs * n_billing_tokens_in_dataset)
+training_cost = ((total_tokens / 1000) * 0.008)
+print("Total cost is: " + str(training_cost) + " USD")
