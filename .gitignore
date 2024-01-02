@@ -1,3 +1,3 @@
 .env
-.jsonl_converter.py
-/home/danledger/fine_tuner/response_formatter
+jsonl_converter.py
+response_formatter/
